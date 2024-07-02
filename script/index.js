@@ -54,6 +54,8 @@ function moveScroll(secNum){
         var location = document.querySelector(".main_sec04_wrap").offsetTop;
     }else if(secNum == 3){
         var location = document.querySelector(".main_sec05_wrap").offsetTop;
+    }else if(secNum == 4){
+        var location = document.querySelector(".main_sec06_wrap").offsetTop;
     }
     
     window.scrollTo({top:location - menuHeight, behavior:'smooth'});
